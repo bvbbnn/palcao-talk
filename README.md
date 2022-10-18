@@ -1,3 +1,3 @@
 # Basic Palcao talk version
 
-CSS got so much better
+HTML is so fun!
