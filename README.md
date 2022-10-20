@@ -1,3 +1,3 @@
-# Basic Palcao talk version
+# Palcao talk prototype
 
 HTML is so fun!
