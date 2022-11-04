@@ -1,0 +1,21 @@
+.dot {
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+}
+.cog__dot-position {
+  position: relative;
+}
+.cog__dot {
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}

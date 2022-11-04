@@ -1,0 +1,112 @@
+.find-screen {
+  padding: 130px var(--horizontal-space) 0px;
+}
+.find-icons {
+  display: flex;
+  justify-content: space-between;
+}
+.find-icons__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.find-icons__icon i {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.recommended-friends {
+  border-top: var(--main-border);
+  border-bottom: var(--main-border);
+  margin: 19px 0px;
+  padding-top: 17px;
+  height: 224px;
+}
+.recommended-friends__title {
+  font-size: 15px;
+  color: var(--gray-text);
+}
+.recommended-friends__text {
+  display: flex;
+  margin-top: 90px;
+  margin-bottom: 92px;
+  justify-content: center;
+  align-items: center;
+  color: var(--gray-text);
+  font-size: 18px;
+}
+.open-chat__header {
+  display: flex;
+  justify-content: space-between;
+  opacity: 0.8;
+  margin-bottom: 19px;
+}
+
+.open-chat__header span {
+  color: var(--gray-text);
+}
+.open-chat__header i {
+  margin-left: 5px;
+}
+.open-post__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 140px;
+}
+.open-post__title {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.open-post__hashtags {
+  color: var(--gray-text);
+  margin-bottom: 7px;
+}
+.open-post__members {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.open-post__member-count {
+  color: var(--gray-text);
+  font-size: 14px;
+}
+.open-post__members img {
+  height: 18px;
+  width: 18px;
+  border-radius: 7px;
+  margin-right: 5px;
+}
+.open-post__members .divider {
+  margin: 0px 7px;
+  width: 1px;
+  height: 15px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.open-post__member-status {
+  color: #ff78cb;
+}
+.open-post__photo img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+.open-post__photo {
+  position: relative;
+}
+.open-post__heart-count {
+  height: 25px;
+  width: 50px;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 70px;
+  right: 8px;
+}
+.open-post__heart-count i {
+  margin-right: 5px;
+}
