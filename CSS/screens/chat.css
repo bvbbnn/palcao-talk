@@ -72,6 +72,7 @@
   align-items: center;
   padding: 5px 15px;
   background-color: white;
+  box-sizing: border-box;
 }
 .reply__plus {
   opacity: 0.5;
@@ -79,10 +80,38 @@
 }
 .reply__emoticons {
   opacity: 0.5;
+  font-size: 23px;
 }
-.reply__send {
+.reply__column button {
   background-color: #fee500;
-  width: 70px;
-  height: 70px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
+  border: none;
+}
+.reply .reply__column:first-child {
+  width: 10%;
+}
+.reply .reply__column:last-child {
+  width: 90%;
+  position: relative;
+}
+.reply .reply__column input {
+  width: 100%;
+  height: 30px;
+  border-radius: 20px;
+  border: var(--main-border);
+}
+.reply__column .reply__emoticons,
+.reply__column button {
+  position: absolute;
+  right: 0px;
+  bottom: 2px;
+}
+.reply__column .reply__emoticons {
+  right: 45px;
+  bottom: 5px;
+}
+.reply .reply__column input::placeholder {
+  padding: 10px;
 }
