@@ -98,14 +98,15 @@
 }
 .reply .reply__column input {
   width: 100%;
-  height: 30px;
+  padding: 8px;
   border-radius: 20px;
   border: var(--main-border);
+  box-sizing: border-box;
 }
 .reply__column .reply__emoticons,
 .reply__column button {
   position: absolute;
-  right: 0px;
+  right: 3px;
   bottom: 2px;
 }
 .reply__column .reply__emoticons {
@@ -113,5 +114,5 @@
   bottom: 5px;
 }
 .reply .reply__column input::placeholder {
-  padding: 10px;
+  padding: 2px;
 }
