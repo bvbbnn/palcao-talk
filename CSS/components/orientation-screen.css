@@ -1,0 +1,19 @@
+#landscape-screen {
+  position: absolute;
+  z-index: 98;
+  width: 100vw;
+  height: 100vh;
+  background-color: darkorange;
+  color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  top: 0;
+}
+
+@media (orientation: portrait) {
+  #landscape-screen {
+    display: none;
+  }
+}
